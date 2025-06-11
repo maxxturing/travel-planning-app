@@ -1,18 +1,7 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "apps/next/package.json",
-      "use": "@vercel/next",
-      "config": {
-        "distDir": ".next"
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "apps/next/$1"
-    }
-  ]
+  "buildCommand": "cd apps/next && yarn build",
+  "outputDirectory": "apps/next/.next",
+  "installCommand": "yarn install --frozen-lockfile",
+  "ignoreCommand": "git diff --quiet HEAD^ HEAD apps/next/"
 }
