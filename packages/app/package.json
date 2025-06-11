@@ -9,6 +9,8 @@
   "dependencies": {
     "@tanstack/react-query": "^4.32.6",
     "solito": "^4.0.1",
+    "@react-navigation/native": "^6.1.7",
+    "@react-navigation/native-stack": "^6.9.13",
     "react": "*",
     "react-native": "*",
     "@travel-planning/db": "*",
