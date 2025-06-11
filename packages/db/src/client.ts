@@ -1,11 +1,13 @@
-import Database from 'better-sqlite3'
-import { drizzle } from 'drizzle-orm/better-sqlite3'
-import { migrate } from 'drizzle-orm/better-sqlite3/migrator'
-import * as schema from './schema'
+// Database client temporarily disabled for Task 1 Vercel deployment
+// Will be replaced with Turso (LibSQL) in Task 3
 
-const sqlite = new Database('travel-planning.db')
-export const db = drizzle(sqlite, { schema })
-
+// Placeholder exports for type compatibility
+export const db = null as any
+export { trips, packingLists, packingItems } from './schema'
 export function runMigrations() {
-  migrate(db, { migrationsFolder: './drizzle' })
+  console.log('Database migrations will be implemented in Task 3 with Turso')
 }
+
+// Task 3 implementation will use:
+// import { createClient } from '@libsql/client'
+// import { drizzle } from 'drizzle-orm/libsql'

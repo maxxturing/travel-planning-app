@@ -11,12 +11,10 @@
   },
   "dependencies": {
     "drizzle-orm": "^0.28.6",
-    "better-sqlite3": "^8.7.0",
     "uuid": "^9.0.0"
   },
   "devDependencies": {
     "drizzle-kit": "^0.19.13",
-    "@types/better-sqlite3": "^7.6.4",
     "@types/uuid": "^9.0.0",
     "typescript": "*"
   }
