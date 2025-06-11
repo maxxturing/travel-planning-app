@@ -1,0 +1,24 @@
+{
+  "name": "@travel-planning/app",
+  "version": "0.1.0",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^4.32.6",
+    "solito": "^4.0.1",
+    "react": "*",
+    "react-native": "*",
+    "@travel-planning/db": "*",
+    "@travel-planning/config": "*"
+  },
+  "devDependencies": {
+    "@types/react": "*",
+    "typescript": "*"
+  },
+  "peerDependencies": {
+    "react": "*"
+  }
+}
