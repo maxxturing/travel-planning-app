@@ -1,5 +1,5 @@
 {
-  "buildCommand": "yarn build:web",
+  "buildCommand": "yarn workspace @travel-planning/next build",
   "outputDirectory": "apps/next/.next",
   "installCommand": "yarn install"
 }
