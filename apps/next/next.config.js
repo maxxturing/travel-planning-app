@@ -4,4 +4,17 @@ module.exports = {
   experimental: {
     externalDir: true,
   },
+  webpack: (config, { isServer }) => {
+    // Exclude React Native packages from web build
+    if (!isServer) {
+      config.resolve.alias = {
+        ...config.resolve.alias,
+        'react-native$': 'react-native-web',
+      }
+    }
+    
+    config.resolve.extensions = ['.web.js', '.web.jsx', '.web.ts', '.web.tsx', ...config.resolve.extensions]
+    
+    return config
+  },
 }

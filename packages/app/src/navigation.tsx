@@ -1,5 +1,4 @@
-import { createNativeStackNavigator } from '@react-navigation/native-stack'
-
+// Platform-agnostic navigation types and constants
 export type RootStackParamList = {
   Home: undefined
   Trips: undefined
@@ -10,8 +9,6 @@ export type RootStackParamList = {
   Settings: undefined
 }
 
-export const Stack = createNativeStackNavigator<RootStackParamList>()
-
 export const ROUTES = {
   HOME: 'Home' as const,
   TRIPS: 'Trips' as const,
@@ -21,3 +18,7 @@ export const ROUTES = {
   PACKING_LIST: 'PackingList' as const,
   SETTINGS: 'Settings' as const,
 }
+
+// React Navigation Stack will be imported in platform-specific files
+// For web: Use Next.js routing
+// For mobile: Use React Navigation
