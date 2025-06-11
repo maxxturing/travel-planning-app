@@ -10,7 +10,6 @@
     "@tanstack/react-query": "^4.32.6",
     "solito": "^4.0.1",
     "react": "*",
-    "@travel-planning/db": "*",
     "@travel-planning/config": "*"
   },
   "devDependencies": {

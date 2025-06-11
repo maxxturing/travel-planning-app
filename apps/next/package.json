@@ -15,7 +15,6 @@
     "react-native-web": "^0.19.7",
     "@travel-planning/app": "*",
     "@travel-planning/ui": "*",
-    "@travel-planning/db": "*",
     "@travel-planning/config": "*"
   },
   "devDependencies": {
