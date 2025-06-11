@@ -1,5 +1,6 @@
-import { Spinner, YStack, Text } from '@tamagui/core'
+import { Spinner, YStack } from '@tamagui/core'
 import { ReactNode } from 'react'
+import { Text } from './text'
 
 export interface LoadingProps {
   message?: string

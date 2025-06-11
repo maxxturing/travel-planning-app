@@ -1,0 +1,1 @@
+export { default } from '@travel-planning/config/src/tamagui.config'
