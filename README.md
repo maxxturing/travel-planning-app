@@ -7,7 +7,7 @@ A universal travel planning application built with Solito (React Native + Next.j
 - **Language**: TypeScript (strict mode)
 - **Frontend**: Solito (React Native + Next.js)
 - **Styling**: Tamagui (Universal Design System)
-- **Database**: SQLite with Drizzle ORM
+- **Database**: Turso (LibSQL) with Drizzle ORM
 - **State Management**: React Query (TanStack Query) + Custom Hooks
 - **Package Manager**: Yarn
 

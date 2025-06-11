@@ -40,7 +40,7 @@ export default function HomePage() {
     { name: 'Tamagui', description: 'Universal design system', status: '⏳ Task 2' },
     { name: 'Drizzle ORM', description: 'Type-safe database queries', status: '✅ Schema ready' },
     { name: 'React Query', description: 'Server state management', status: '✅ Configured' },
-    { name: 'SQLite', description: 'Local database', status: '✅ Schema defined' }
+    { name: 'Turso (LibSQL)', description: 'Edge-distributed database', status: '⏳ Task 3' }
   ]
 
   return (
@@ -182,7 +182,7 @@ export default function HomePage() {
           <div>packages/</div>
           <div>├── 📱 app/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Navigation & business logic</div>
           <div>├── 🎨 ui/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Universal Tamagui components</div>
-          <div>├── 🗄️ db/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Drizzle schema & queries</div>
+          <div>├── 🗄️ db/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Turso/Drizzle schema & queries</div>
           <div>└── ⚙️ config/ &nbsp;&nbsp;# Shared configuration</div>
           <br />
           <div>apps/</div>
