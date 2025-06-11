@@ -16,8 +16,10 @@
 - **Reason**: Fernando Rojo philosophy + Vercel deployment compatibility + universal mobile/web access
 
 #### Deployment Strategy
-- **Challenge**: better-sqlite3 native compilation failed on Vercel
-- **Solution**: Temporarily removed database dependencies for demo deployment
+- **Challenge 1**: better-sqlite3 native compilation failed on Vercel
+- **Solution 1**: Completely removed database dependencies, added placeholder exports
+- **Challenge 2**: Vercel couldn't find Next.js output in monorepo structure  
+- **Solution 2**: Configured vercel.json for monorepo with proper build/routing
 - **Future**: Turso integration in Task 3
 
 #### Component Architecture
